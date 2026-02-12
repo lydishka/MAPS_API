@@ -32,7 +32,7 @@ class GameView(arcade.Window):
 
     def get_image(self):
         server_address = 'https://static-maps.yandex.ru/v1?'
-        api_key = 'f3a0fe3a-b07e-4840-a1da-06f18b2ddf13'
+        api_key = '162f1a1a-c131-476b-839e-0dceb33ac0e2'
         ll_spn = f'll={self.c1},{self.c2}&spn={self.c3},{self.c4}'
         # Готовим запрос.
 
@@ -90,4 +90,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
